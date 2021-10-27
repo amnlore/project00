@@ -20,7 +20,7 @@ struct song_node * insert_front(struct song_node *song, char *name, char *artist
     return n;
 }
 
-int song_compare(struct song_node *s1, struct song_node *s2) {
+int song_compare(struct song_node *song1, struct song_node *song2) {
     if (strcasecmp(s1->artist, s2->artist) return strcasecmp(s1->artist, s2->artist);
     return strcasecmp(s1->name, s2->name);
 }
